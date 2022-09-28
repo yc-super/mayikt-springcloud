@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mayikt-springboot
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 10.218.211.181:8848
+        file-extension: yml
+
+#mayikt:
+#  path: http://www.mayikt.com
